@@ -1,8 +1,7 @@
-export default load_page_content()
 import coffeeImage from './images/coffee.jpg';
 import './image.css'; // Import the CSS file for image styling
 
-function load_page_content(){
+export default function load_page_content(){
     const content_div = document.getElementById('content');
     if (!content_div) return;
 
