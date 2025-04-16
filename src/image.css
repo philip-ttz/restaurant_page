@@ -1,0 +1,7 @@
+.coffee-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 200px;
+  max-height: 300px;
+}
